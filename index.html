@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade Criando Formulário</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <section>
+                <form>
+                    <h1>Formulário de Cadastro: Evento de Tecnologia Kenzie</h1>
+                    <p>Boas vindas ao Evento de Tecnologia Kenzie, você será sujeito a um breve cadastro para coletarmos suas informações.</p>
+                        <label for="nome">Nome</label>
+                            <div>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required="true"/>          
+                            </div>
+                        <label for="nome">E-mail</label>
+                            <div>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu e-mail aqui" required="true"/>        
+                            </div>
+                        <label for="motivacao">O que te motivou a participar do evento?</label>
+                            <div>
+                        <textarea type="text" id="motivacao" name="motivacao" placeholder="Descreva aqui..." required="true" rows="10" cols="50"></textarea>
+                            </div>
+                        <label for="modulo">Selecione seu módulo</label>
+                            <div>
+                            <select name="modulo" id="modulo" required="true">
+                                <option value="">Por favor, escolha uma opção</option>
+                                <option value="modulo1">Módulo 1</option>
+                                <option value="modulo2">Módulo 2</option>
+                                <option value="modulo3">Módulo 3</option>
+                                <option value="modulo4">Módulo 4</option>
+                            </select>
+                            </div>   
+                        <label for="senha">Cadastre sua senha</label>
+                            <div>
+                        <input type="password" id="senha" name="senha" placeholder="Digite aqui sua senha" required="true"/>
+                            </div>
+                        <label for="confirmasenha">Confirme sua senha</label>
+                            <div>
+                        <input type="password" id="confirmasenha" name="confirmasenha" placeholder="Confirme aqui sua senha" required="true"/>
+                            </div>
+                    <p>Você deseja receber novidades em seu e-mail?</p>
+                            <div>
+                        <label for="sim">Sim</label>
+                        <input value="sim" id="sim" type="radio" name="opcao"/>
+                        <label for="nao">Não</label>
+                        <input value="nao" id="nao" type="radio" name="opcao"/>
+                            </div>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </section>
+        </main>
+        <foother>
+
+        </foother>
+    </body>
+</html>
